@@ -48,9 +48,13 @@ we can see how many nodes are created .
 
 ### step5 Deploy a Sample App (Test EKS) in moba
 
- create deployment- `kubectl create deployment nginx --image=nginx` 
- Expose service   - `kubectl expose deployment nginx --type=LoadBalancer --port=80`
- check service    - `kubectl get svc`
+ create deployment- 
+ `kubectl create deployment nginx --image=nginx` 
+ Expose service   -
+ `kubectl expose deployment nginx --type=LoadBalancer --port=80`
+ check service    -
+ `kubectl get svc`
+ 
  You will get an EXTERNAL-IP
 
  ### step6 open in browser 
